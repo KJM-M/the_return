@@ -1,0 +1,725 @@
+THE RETURN
+Game Texts
+
+Source: Assets/Scenes/Main.unity and Assets/Scripts/Actions/Help.cs
+
+Item Description is displayed as: You see [item description]
+Initially disabled = the item is hidden when the game starts.
+
+################################################################################
+INTRO
+################################################################################
+
+The crack of splintering wood. Fire. A scream. Black water closing overhead. Then nothing.
+
+You wake face down in damp moss, drawing a ragged breath that tastes of earth and smoke. Roots cling to your arms, and black sap stains your skin. Your body aches as though it has been broken and carelessly made whole again. Something has brought you back, though you cannot remember what.
+
+You force yourself upright and pull a fallen branch from the roots. The wood is old and weathered, but strangely warm in your grasp. Around you lies an island of black rock. The sea surrounding it is perfectly still. Beyond the shore, the world ends in white fog.
+
+
+################################################################################
+ISLAND
+################################################################################
+
+DESCRIPTION
+
+You stand on a low island of black rock and damp moss. The silver sea surrounds it without a ripple. A short distance from shore, the fog closes over the water, hiding whatever lies beyond.<br>
+
+CONNECTIONS
+
+North → Bridge
+- To the <color=#8FA6C9><b>north</b></color>, a narrow path leads to a wooden bridge that vanishes into the fog.
+
+South → Tree
+- To the <color=#8FA6C9><b>south</b></color>, a massive blackened tree rises above the island.
+
+East → East Shore
+- To the <color=#8FA6C9><b>east</b></color>, the rock descends toward a narrow shore.
+
+West → West Shore
+- To the <color=#8FA6C9><b>west</b></color>, the remains of a wrecked ship lie among the rocks.
+
+ITEMS
+
+Plaque
+
+Item Name:
+plaque
+
+Description:
+a tarnished <color=#8FA6C9><b>plaque</b></color> embedded in the ground, its faded letters half-hidden beneath the grime.
+
+Examine:
+The metal is cold and pitted, its edges crusted with salt. Dirt has settled into the engraved letters, but the inscription can still be read.
+
+Read:
+Here passed Jesse Mustajärvi, adventurer and wanderer. His footprints are gone from these shores. His name remains.
+
+
+################################################################################
+EAST SHORE
+################################################################################
+
+DESCRIPTION
+
+You stand on a shelf of jagged black rock. The sea presses against it without foam or sound, smooth as polished metal. Scattered stones rise from the water nearby; beyond them, there is only fog.<br>
+
+CONNECTIONS
+
+West → Island
+- To the <color=#8FA6C9><b>west</b></color>, a path of wet stone climbs back toward the centre of the island.
+
+South → The Gorge
+- To the <color=#8FA6C9><b>south</b></color>, a narrow path descends the cliff into a steep, sheltered gorge.
+
+ITEMS
+
+None.
+
+
+################################################################################
+THE GORGE
+################################################################################
+
+DESCRIPTION
+
+You stand in a bleak gorge, its floor covered in black mud and scattered stones. A small fishing hut stands against the cliff wall, its roof collapsed between its weathered walls.<br>
+
+CONNECTIONS
+
+North → East Shore
+- To the <color=#8FA6C9><b>north</b></color>, a narrow path climbs the cliff back toward the eastern shore.
+
+Fishing Hut → Fishing Hut
+- The dark doorway of the <color=#8FA6C9><b>fishing hut</b></color> stands open beneath the cliff.
+
+ITEMS
+
+None.
+
+
+################################################################################
+FISHING HUT
+################################################################################
+
+DESCRIPTION
+
+You stand inside the ruined fishing hut. Broken roof boards cover the floor, and rain has blackened the walls. A narrow shelf holds a cracked cup and a tangle of fishing line. Against the wall stands a rusted iron stove, cold and streaked with soot. The little room feels as though it has been waiting for its fisherman to return.<br>
+
+CONNECTIONS
+
+North → The Gorge
+- The doorway leads <color=#8FA6C9><b>north</b></color>, back to the gorge.
+
+ITEMS
+
+Matchbox
+
+Item Name:
+matchbox
+
+Description:
+a small <color=#8FA6C9><b>matchbox</b></color> lying on top of the stove, its edges softened by damp.
+
+Get:
+You take the matchbox.
+
+Examine:
+You shake the box gently. A few matches shift inside with a dry rattle. The cardboard is stained with age, but the contents have somehow escaped the damp.
+
+
+################################################################################
+WEST SHORE
+################################################################################
+
+DESCRIPTION
+
+You stand beside the remains of a wrecked ship. Its broken ribs rise from the black rocks, and the hull has been split open. No name remains on the rotting timber.<br>
+
+CONNECTIONS
+
+East → Island
+- To the <color=#8FA6C9><b>east</b></color>, the rocks curve back toward the centre of the island.
+
+West → The Mudflats
+- To the <color=#8FA6C9><b>west</b></color>, a narrow path skirts the cliff face and disappears around the black rocks.
+
+ITEMS
+
+Lantern_WS
+
+Item Name:
+lantern
+
+Description:
+an unlit <color=#8FA6C9><b>lantern</b></color> hanging from the wreck’s splintered prow, its frame crusted with salt.
+
+Examine:
+The glass is clouded with salt, and the metal frame is pitted with rust. The wick is cold and blackened. When you tilt the lantern, you hear oil stirring inside, but you have no way to light it.
+
+Get:
+You take the lantern.
+
+
+################################################################################
+THE MUDFLATS
+################################################################################
+
+DESCRIPTION
+
+You stand on a bleak mudflat beneath a vast, leafless tree. Its black roots coil through the wet earth like ancient bones, and shallow pools gleam dully between them.<br>
+
+CONNECTIONS
+
+East → West Shore
+- To the <color=#8FA6C9><b>east</b></color>, the narrow path rounds the cliff and leads back toward the wrecked ship.
+
+North → The Iron Gate
+- To the <color=#8FA6C9><b>north</b></color>, a narrow trail crosses the wet mud and disappears into the fog.
+
+ITEMS
+
+PileOfMud — initially disabled
+
+Item Name:
+pile of mud
+
+Description:
+a suspicious-looking <color=#8FA6C9><b>pile of mud</b></color> heaped beside the roots of the dead tree.
+
+Examine:
+The mud looks freshly disturbed, though there is no sign of who—or what—disturbed it. You turn the shovel over in your hands, wondering what the ground might be hiding
+
+
+################################################################################
+THE IRON GATE
+################################################################################
+
+DESCRIPTION
+
+You stand before a towering iron gate set into the cliff. Its bars are black with rust. Beyond the gate, worn stone steps descend into the mist, hiding whatever lies below.<br>
+
+CONNECTIONS
+
+North → Dock
+- To the <color=#8FA6C9><b>north</b></color>, the towering iron gate stands over the worn steps leading into the mist.
+
+South → The Mudflats
+- To the <color=#8FA6C9><b>south</b></color>, a narrow trail leads back across the mudflats toward the dead tree.
+
+ITEMS
+
+IronGate
+
+Item Name:
+iron gate
+
+Description:
+a towering <color=#8FA6C9><b>iron gate</b></color> set into the cliff, its heavy lock dark with rust.
+
+Examine:
+The iron bars are too close together to squeeze through, and the sheer cliff offers no way around them. A heavy lock holds the gate fast. You will need a key to reach the other side.
+
+
+################################################################################
+TREE
+################################################################################
+
+DESCRIPTION
+
+You stand beneath a massive blackened tree. Its split trunk leans over you, and thick roots disappear into the cracks between the rocks. The branches above are bare, and the air smells of old smoke.<br>
+
+CONNECTIONS
+
+North → Island
+- To the <color=#8FA6C9><b>north</b></color>, a faint path crosses the wet moss and returns to the centre of the island.
+
+ITEMS
+
+Tree
+
+Item Name:
+tree
+
+Description:
+a massive blackened <color=#8FA6C9><b>tree</b></color> with a split trunk, its bare branches reaching into the mist.
+
+Examine:
+A deep split runs through the trunk, vanishing into darkness between the roots. The bark is cold and rough, its ridges hard as stone. Black sap has congealed along the edges of the wound.
+
+Shovel
+
+Item Name:
+shovel
+
+Description:
+a rusty <color=#8FA6C9><b>shovel</b></color> leaning against the blackened tree, its blade crusted with old earth.
+
+Examine:
+Rust has eaten into the blade, and dried soil clings to its edges. The handle is cracked and bleached by weather, but it does not give when you test it.
+
+Get:
+You take the shovel.
+
+Use:
+You dig into the loose mud until the shovel strikes something solid. A few more scoops reveal a small, rusted metal box. You pry open its lid. Inside, resting on a scrap of rotted cloth, lies a strange amulet, cold to the touch.
+
+
+################################################################################
+BRIDGE
+################################################################################
+
+DESCRIPTION
+
+You stand at the island’s northern edge before a narrow wooden bridge. Its planks are swollen and dark with seawater, and the ropes binding them are crusted with barnacles. Only the first few planks are visible; the rest vanish into the fog.<br>
+
+CONNECTIONS
+
+North → Causeway
+- To the <color=#8FA6C9><b>north</b></color>, the bridge stretches over the motionless sea toward a dark shape suspended in the mist.
+
+South → Island
+- To the <color=#8FA6C9><b>south</b></color>, a short path leads back toward the centre of the island.
+
+ITEMS
+
+Lantern_Bridge
+
+Item Name:
+lantern
+
+Description:
+an unlit <color=#8FA6C9><b>lantern</b></color> hanging from a wooden post beside the bridge, its glass black with grime.
+
+Examine:
+The lantern is rusted fast to its hook. Behind the clouded glass, the wick is dry and brittle, and the oil reservoir is completely empty. There is nothing left to burn.
+
+
+################################################################################
+CAUSEWAY
+################################################################################
+
+DESCRIPTION
+
+You leave the bridge and step onto a narrow causeway above the still water. Sheer fortifications rise beside you, their weathered walls broken by rows of empty openings. At its far end, a dark passage has been cut directly into the cliff.<br>
+
+CONNECTIONS
+
+South → Bridge
+- To the <color=#8FA6C9><b>south</b></color>, the wooden bridge reaches back across the water toward the island.
+
+North → Chapel Exterior
+- To the <color=#8FA6C9><b>north</b></color>, your lantern reveals worn steps climbing through the passage toward the chapel.
+
+ITEMS
+
+Stairs
+
+Item Name:
+stairs
+
+Description:
+worn <color=#8FA6C9><b>stairs</b></color> rising into the rock-cut passage, their upper steps lost in shadow.
+
+Examine:
+The steps vanish into absolute darkness a short distance above you. Without a light source, you would not get far.
+
+
+################################################################################
+CHAPEL EXTERIOR
+################################################################################
+
+DESCRIPTION
+
+You emerge from the passage onto a bleak, windswept height. Before you stands a ruined chapel of black stone, its broken gables rising into the low cloud. Fragments of fallen masonry lie scattered along the path, and beneath a pointed arch, the chapel doorway yawns open in shadow.<br>
+
+CONNECTIONS
+
+south → Causeway
+- To the <color=#8FA6C9><b>south</b></color>, worn steps descend through the dark passage toward the causeway.
+
+north → Chapel
+- To the <color=#8FA6C9><b>north</b></color>, the chapel’s shadowed doorway stands open beneath its broken gables. 
+
+ITEMS
+
+None.
+
+
+################################################################################
+CHAPEL
+################################################################################
+
+DESCRIPTION
+
+You step into a ruined chapel built from dark stone. Part of the roof has collapsed, and broken masonry lies half-buried in dust. Salt stains mark the walls, and through the empty windows comes the distant sound of the sea.<br>
+
+CONNECTIONS
+
+East → East Antechamber
+- To the <color=#8FA6C9><b>east</b></color>, a low doorway opens into an unlit antechamber.
+
+West → West Antechamber
+- To the <color=#8FA6C9><b>west</b></color>, a second doorway leads into another antechamber.
+
+North → The Crone's Cell
+- To the <color=#8FA6C9><b>north</b></color>, a carved wooden door stands at the far end of the chapel. A pale shimmer clings to its frame, sealing the way forward.
+
+South → Chapel Exterior
+- To the <color=#8FA6C9><b>south</b></color>, worn steps descend through the dark, rock-cut passage toward the causeway.
+
+ITEMS
+
+Statue
+
+Item Name:
+statue
+
+Description:
+the lower half of a robed stone <color=#8FA6C9><b>statue</b></color> still fixed to its plinth, broken off abruptly at the waist.
+
+Examine:
+Only the legs and lower folds of a robed figure remain. The stone is rough and scarred where the statue broke apart at the waist, yet no large fragments lie near the plinth. Whatever happened here, the pieces were carried elsewhere. Carved into the base are the words, “Beyond these walls, the great wizard lies entwined.”
+
+Well
+
+Item Name:
+well
+
+Description:
+an old stone <color=#8FA6C9><b>well</b></color> set into the chapel floor, its depths black and silent.
+
+Examine:
+You lean over the well. The darkness below seems to rise to meet you. Two eyes snap open, followed by rows of hooked teeth. You throw yourself backward as a great serpent erupts from the shaft and coils around the well, cutting off every escape. It rears above you, jaws spreading. The staff in your hand begins to hum. You have only a moment to act.
+
+Serpent — initially disabled
+
+Item Name:
+serpent
+
+Description:
+a giant <color=#8FA6C9><b>serpent</b></color> coiled around the well, its scales gleaming like wet iron.
+
+Examine:
+Its black scales are slick with seawater. The serpent’s head weaves above you, following every movement. All of the doors lie within reach of its coils.
+
+Drops:
+golden coins (GoldenCoins), serpent fang (SerpentFang)
+
+GoldenCoins — initially disabled
+
+Item Name:
+golden coins
+
+Description:
+a pile of <color=#8FA6C9><b>golden coins</b></color> scattered around the well, bright against the dark stones.
+
+Examine:
+Most of the coins are black with age, but a few still gleam gold and silver among the serpent’s coils.
+
+SerpentFang — initially disabled
+
+Item Name:
+serpent fang
+
+Description:
+a curved <color=#8FA6C9><b>serpent fang</b></color> lying among the serpent’s remains, its dark point catching the light.
+
+Examine:
+The fang is nearly as long as your hand, curved and wickedly sharp. Its dark surface feels cold, yet a faint pulse runs through it when you tighten your grip.
+
+Get:
+You take the serpent fang.
+
+
+################################################################################
+WEST ANTECHAMBER
+################################################################################
+
+DESCRIPTION
+
+You stand in a cramped antechamber filled with smashed and overturned pews. Faded paintings sag between layers of cobwebs, and rotting tapestries cover the walls. One hangs straighter than the rest, as though someone still comes here to look at it.<br>
+
+CONNECTIONS
+
+East → Chapel
+- To the <color=#8FA6C9><b>east</b></color>, a doorway leads back into the chapel.
+
+ITEMS
+
+Tapestry
+
+Item Name:
+tapestry
+
+Description:
+a threadbare <color=#8FA6C9><b>tapestry</b></color> hanging from the wall, its faded green and silver threads hinting at a land swallowed by the mist.
+
+Examine:
+You brush away the dust and cobwebs. A map emerges from the moth-eaten fabric: a green land surrounded by a silver sea. Most of its markings have faded, but one name remains legible along the torn border: <color=#8FA6C9><b>Albion</b></color>. The fabric around the name is worn thin, as though someone has traced the letters many times.
+
+
+################################################################################
+EAST ANTECHAMBER
+################################################################################
+
+DESCRIPTION
+
+You stand in a cramped antechamber. Broken stone crunches beneath your feet, and the missing pieces of the chapel’s statue lie scattered across the floor. The destruction looks too deliberate to be the work of time alone.<br>
+
+CONNECTIONS
+
+West → Chapel
+- To the <color=#8FA6C9><b>west</b></color>, a doorway leads back into the chapel.
+
+ITEMS
+
+Head
+
+Item Name:
+head
+
+Description:
+a stone <color=#8FA6C9><b>head</b></color> lying among the statue’s remains, its worn features turned toward the doorway as though watching it.
+
+Examine:
+You lift the stone head and turn its face toward you. It clearly came from the broken statue in the chapel. The worn features seem familiar, and a name comes to you: <color=#8FA6C9><b>Merlin</b></color>. You speak it aloud. Around the neck, the stone is scarred by repeated blows. Whoever broke the statue did not do so by accident.
+
+
+################################################################################
+THE CRONE'S CELL
+################################################################################
+
+DESCRIPTION
+
+You stand in a cramped stone chamber lit by a small fire. A blackened cauldron hangs above the flames, its smoke curling toward the low ceiling. An old woman sits motionless beside a cluttered table, her hood drawn low over her face. Despite the fire, the room feels cold.<br>
+
+CONNECTIONS
+
+South → Chapel
+- To the <color=#8FA6C9><b>south</b></color>, a doorway leads back into the ruined chapel.
+
+ITEMS
+
+TheCrone1
+
+Item Name:
+crone
+
+Description:
+an old <color=#8FA6C9><b>crone</b></color> sitting beside the fire, her hood drawn low over her face.
+
+TalkTo:
+The crone raises her head slowly. Her gaze fixes on the amulet you carry. “So. The serpent is dead, and my own amulet has carried you through my barrier.” A thin smile appears beneath the hood. “How resourceful. Tell me, stranger—whose ghost are you chasing?”
+
+Say “merlin”:
+“Merlin.” The name sounds less like a word than an old wound. “Of course. It is always Merlin. Merlin the wise, Merlin the blessed, Merlin whose light the rest of us were meant to admire.” The crone gives a quiet, mirthless laugh. “I know how brightly he burned—and what he left in shadow.” She leans toward you. “But let us see what you truly know. What was the name of the land he called his own?”
+
+Examine:
+The old woman sits perfectly still, her face little more than a shadow beneath the hood. Her hands are thin and knotted with age, but there is nothing frail in the way she watches you. The firelight seems to bend around her.
+
+TheCrone2 — initially disabled
+
+Item Name:
+crone
+
+Description:
+an old <color=#8FA6C9><b>crone</b></color> sitting beside the fire, her hood drawn low over her face.
+
+TalkTo:
+The crone studies you for a long moment. “You know his name. But do you know the land that shaped him?” Her gaze drifts toward the chapel wall. “Tell me—what was this land called before the mist took it?”
+
+Say “albion”:
+“Albion.” For a moment, the crone says nothing. “Yes. He spoke of it as though its rivers answered to him, as though its kings were merely pieces on his board.” Her voice hardens. “You see? Even now, I remember too much.” She holds out a weathered hand. “Return my amulet. You have used it to come this far, and I will not have it carried away in his name. Give it to me, and I will open your way off this island. Then go, and do not return. I have heard enough of Merlin to last me another lifetime.”
+
+Examine:
+The old woman sits perfectly still, her face little more than a shadow beneath the hood. Her hands are thin and knotted with age, but there is nothing frail in the way she watches you. The firelight seems to bend around her.
+
+TheCrone3 — initially disabled
+
+Item Name:
+crone
+
+Description:
+an old <color=#8FA6C9><b>crone</b></color> sitting beside the fire, her hood drawn low over her face.
+
+TalkTo:
+The crone holds out a weathered hand. “My amulet. Return it, and I will open your way off this island. I have no more patience for questions—or for Merlin’s shadow in my home.”
+
+Give “strange amulet”:
+You place the strange amulet in the crone’s waiting hand. She closes her fingers around it and gives you a heavy brass key. “The gate will open for you now. Take the path beyond it and leave this island. Do not come back.”
+
+Examine:
+The old woman sits perfectly still, her face little more than a shadow beneath the hood. Her hands are thin and knotted with age, but there is nothing frail in the way she watches you. The firelight seems to bend around her.
+
+TheCrone4 — initially disabled
+
+Item Name:
+crone
+
+Description:
+an old <color=#8FA6C9><b>crone</b></color> sitting beside the fire, her hood drawn low over her face.
+
+TalkTo:
+The crone stares into the fire, her shoulders tense with anger. When you speak, she lets out a low, furious growl but does not turn to look at you or acknowledge you further.
+
+Examine:
+The old woman sits rigidly beside the fire, her hooded face turned away from you. Her thin fingers are clenched around the amulet, and she pointedly ignores your presence.
+
+
+################################################################################
+DOCK
+################################################################################
+
+DESCRIPTION
+
+You stand on a worn stone jetty reaching into the mist. A narrow boat rocks on the black water beside it, its bell ringing in the rising wind.<br>
+
+CONNECTIONS
+
+South → The Iron Gate
+- To the <color=#8FA6C9><b>south</b></color>, the stone jetty leads back toward the iron gate.
+
+ITEMS
+
+Ferryman
+
+Item Name:
+ferryman
+
+Description:
+a robed <color=#8FA6C9><b>ferryman</b></color> waiting in the narrow boat, his hooded face turned toward you in silent expectation.
+
+TalkTo:
+The Ferryman turns his hooded face toward you. For a moment, he says nothing. “A living soul,” he murmurs at last. “It has been a long time since one came to this shore.” He extends an open hand. “If you seek passage, you must pay the price.”
+
+Give “golden coins”:
+[No response text]
+
+Examine:
+Beneath the hood, you can make out no face, only a deeper darkness. His hands are pale and long-fingered, and black water clings to the hem of his robe. Though the boat shifts gently beneath him, the Ferryman himself remains perfectly still.
+
+
+################################################################################
+THE END
+################################################################################
+
+DESCRIPTION
+
+The Ferryman’s fingers close around the coins. He steps aside, and you climb into the boat. Without a word, he casts off. You look back once at the ruined chapel and the ghost land surrounding it, then turn toward the wall of fog ahead. The shoreline disappears behind you as the boat drifts silently into the unknown.
+
+CONNECTIONS
+
+None.
+
+ITEMS
+
+None.
+
+
+################################################################################
+INVENTORY AND CREATED ITEMS
+################################################################################
+
+Staff
+
+Item Name:
+staff
+
+Description:
+a weathered wooden <color=#8FA6C9><b>staff</b></color>, faintly warm to the touch.
+
+Use:
+You lunge forward, and the staff flares with blinding light. A single sweeping blow severs the serpent’s head. Its coils crash to the floor as coins burst from the open neck, scattering across the stones. Still they pour out, gold and silver streaming from the body where blood should be.
+
+LitLantern — initially disabled
+
+Item Name:
+lit lantern
+
+Description:
+a <color=#8FA6C9><b>lit lantern</b></color>, its small flame burning steadily behind the clouded glass.
+
+Examine:
+A steady flame burns behind the clouded glass, casting a warm light around you.
+
+BrassKey — initially disabled
+
+Item Name:
+brass key
+
+Description:
+a heavy <color=#8FA6C9><b>brass key</b></color>, its surface green with age.
+
+Examine:
+Mud clings to its teeth, but the metal beneath is still sound. The bow of the key is shaped like a pointed arch. Whatever it opens must have been built to last.
+
+Use:
+The key resists for a moment, then turns with a heavy click. Deep within the old lock, something releases.
+
+StrangeAmulet — initially disabled
+
+Item Name:
+strange amulet
+
+Description:
+a <color=#8FA6C9><b>strange amulet</b></color> hanging from a tarnished chain, cold even against your skin.
+
+Examine:
+A dark stone hangs from a tarnished chain. Its surface seems to drink in the light, and a faint pulse answers your touch, as though something within it were slowly waking.
+
+BattleStaff — initially disabled
+
+Item Name:
+battle staff
+
+Description:
+a weathered <color=#8FA6C9><b>battle staff</b></color> tipped with a serpent’s fang, dark veins running through its wood.
+
+Examine:
+A long serpent’s fang projects from the end of the weathered staff. Dark veins run through the wood beneath your fingers, and the weapon feels both solid and unnaturally alive.
+
+
+################################################################################
+COMBINATIONS
+################################################################################
+
+MATCHBOX + LANTERN → LIT LANTERN
+
+Commands:
+combine matchbox lantern
+combine lantern matchbox
+
+Response:
+You strike a match and light the lantern. A warm flame settles behind the glass.
+
+STAFF + SERPENT FANG → BATTLE STAFF
+
+Commands:
+combine staff serpent fang
+combine serpent fang staff
+
+Response:
+You press the serpent’s fang against the end of the staff. The wood twists around it with a splintering groan, holding it fast. A pulse of warmth travels through the staff, and its weight settles naturally into your hands.
+
+
+################################################################################
+HELP TEXT
+################################################################################
+
+COMMANDS
+
+Type a verb, followed by a noun when needed.
+
+go [direction] — Travel in a direction.
+examine [item] — Look at something more closely.
+get [item] — Pick up an item.
+use [item] — Use an item.
+combine [item] [item] — Combine two items.
+give [item] — Offer an item to someone.
+read [item] — Read writing or inscriptions.
+talkto [character] — Speak to someone.
+say [word] — Say a word aloud.
+exitgame — Exit the game.
+
+Examples: go north, examine staff, combine lantern matchbox
